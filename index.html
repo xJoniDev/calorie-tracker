@@ -8,8 +8,17 @@
     <title>Calorie Tracker</title>
 </head>
 <body>
-    <h1>Calorie Tracker</h1>
-    <p>Track your daily calorie intake and stay healthy!</p>
+   <div id="main-container">
+    <h1 id="main-title">Calorie Tracker</h1>
+    <p id="main-description">Track your daily calorie intake and stay healthy!</p>
+    <h4 id="login-title">Login:</h4>
+    <input id="email-login" type="email" placeholder="Enter your email">
+    <input id="password-login" type="password" placeholder="Enter your password">
+    <button id="login-button" onclick="login()">Submit</button>
+
+    <a id="register-link" href="register.html">Don't have an account? Register here.</a>
+   </div>
+
     <script src="script.js"></script>
 </body>
 </html>

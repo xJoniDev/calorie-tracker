@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); //Android Font
 
 * {
@@ -10,4 +9,12 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: black;
     color: white;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
