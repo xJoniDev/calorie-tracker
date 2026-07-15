@@ -2,7 +2,7 @@
 
 A small, in-progress web app for tracking daily calorie intake.
 
-**Status:** In progress
+**Status:** In progress :]
 
 ## Quick start
 - Open `index.html` in your browser to run the app locally.
